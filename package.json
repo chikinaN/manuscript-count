@@ -1,0 +1,27 @@
+{
+  "name": "manuscript-count",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "wrangler pages dev",
+    "deploy": "$npm_execpath run build && wrangler pages deploy"
+  },
+  "dependencies": {
+    "hono": "^4.6.2",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "@hono/vite-build": "^1.0.0",
+    "@hono/vite-dev-server": "^0.15.1",
+    "@types/react": "^18.3.7",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "vite": "^5.2.12",
+    "wrangler": "^3.57.2"
+  }
+}
