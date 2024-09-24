@@ -11,6 +11,8 @@ dist/
 .idea/usage.statistics.xml
 .idea/shelf
 .history/
+.clj-kondo/
+.lsp/
 
 # deps
 node_modules/
